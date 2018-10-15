@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PROPHet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PROPHet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-in ./bin/Debug/input_file -train" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DNOT_MD=1" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PROPHet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/Analysis.cpp" />
+		<Unit filename="src/Analysis.h" />
+		<Unit filename="src/Art.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Atom.cpp" />
+		<Unit filename="src/Atom.h" />
+		<Unit filename="src/CUSTOM.cpp" />
+		<Unit filename="src/CUSTOM.h" />
+		<Unit filename="src/Common.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/DFT_IO.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Error.cpp" />
+		<Unit filename="src/Error.h" />
+		<Unit filename="src/FHIAIMS.cpp" />
+		<Unit filename="src/FHIAIMS.h" />
+		<Unit filename="src/Functional.cpp" />
+		<Unit filename="src/Functional.h" />
+		<Unit filename="src/Functional_params.cpp" />
+		<Unit filename="src/Functional_params.h" />
+		<Unit filename="src/Grid_data.cpp" />
+		<Unit filename="src/Grid_data.h" />
+		<Unit filename="src/NF.cpp" />
+		<Unit filename="src/NF.h" />
+		<Unit filename="src/NF_node.cpp" />
+		<Unit filename="src/NF_node.h" />
+		<Unit filename="src/NN.cpp" />
+		<Unit filename="src/NN.h" />
+		<Unit filename="src/NN_node.cpp" />
+		<Unit filename="src/NN_node.h" />
+		<Unit filename="src/Network.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Network_node.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Neural_network.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Neural_network.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Optimizer.cpp" />
+		<Unit filename="src/Optimizer.h" />
+		<Unit filename="src/Optimizer_NF.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Parallel.cpp" />
+		<Unit filename="src/Parallel.h" />
+		<Unit filename="src/Potential.cpp" />
+		<Unit filename="src/Potential.h" />
+		<Unit filename="src/QE.cpp" />
+		<Unit filename="src/QE.h" />
+		<Unit filename="src/Setup.cpp" />
+		<Unit filename="src/Setup.h" />
+		<Unit filename="src/Structure.cpp" />
+		<Unit filename="src/Structure.h" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/System.h" />
+		<Unit filename="src/System_data.cpp" />
+		<Unit filename="src/System_data.h" />
+		<Unit filename="src/Tables.cpp" />
+		<Unit filename="src/Tables.h" />
+		<Unit filename="src/VASP.cpp" />
+		<Unit filename="src/VASP.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/pair_nn.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/pair_nn.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/pugiconfig.hpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/pugixml.cpp" />
+		<Unit filename="src/pugixml.hpp" />
+		<Unit filename="src/xml_reader.cpp" />
+		<Unit filename="src/xml_reader.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
